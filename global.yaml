@@ -299,7 +299,7 @@ global:
   # enable pod distruption budget for the control plane, which is used to
   # ensure Istio control plane components are gradually upgraded or recovered.
   defaultPodDisruptionBudget:
-    enabled: true
+    enabled: false
     # The values aren't mutable due to a current PodDisruptionBudget limitation
     # minAvailable: 1
 
